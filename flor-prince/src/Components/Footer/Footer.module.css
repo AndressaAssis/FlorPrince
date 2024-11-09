@@ -5,7 +5,7 @@
     color: #f1f1f1;
     padding: 20px;
     font-family: Arial, sans-serif;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -49,6 +49,10 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.newsletterButton:hover {
+    background-color: #5a4026;
 }
   
 .footer ul {

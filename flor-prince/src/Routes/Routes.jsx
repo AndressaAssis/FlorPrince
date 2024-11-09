@@ -9,7 +9,7 @@ import { Adocao } from '../Pages/Adocao/Adocao';
 import { Denuncie } from '../Pages/Denuncie/Denuncie';
 import { Blog } from '../Pages/Blog/Blog';
 import { Clinica } from '../Pages/Clinica/Clinica';
-import { TrabalheConosco } from '../Pages/TrabalheConosco';
+import { TrabalheConosco } from '../Pages/TrabalheConosco/TrabalheConosco';
 
 export function Rotas() {
 

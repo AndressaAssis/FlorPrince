@@ -1,0 +1,203 @@
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #5a4026;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ccba9a;
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #d4c3a3;
+    border-radius: 8px;
+    background-color: #f9f4ee;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: #6b4f2c;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section p {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.metodos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.metodos li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #5a4026;
+    border-bottom: 1px solid #d4c3a3;
+}
+
+.note {
+    font-style: italic;
+    color: #6b4f2c;
+}
+
+.contactInfo {
+    font-size: 1rem;
+    color: #6b4f2c;
+    font-style: normal;
+    text-align: center;
+}
+
+.imageContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.roundImage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #d4c3a3;
+    cursor: pointer;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.modalContent h3 {
+    color: #5a4026;
+    margin-bottom: 1rem;
+}
+
+.modalContent button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #6b4f2c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f4ee;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    border: 1px solid #d4c3a3;
+}
+
+.section2 h2 {
+    color: #6b4f2c;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.section2 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+
+.form label {
+    font-size: 1rem;
+    color: #3b2a1a;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #5a4026;
+    border: 1px solid #d4c3a3;
+    border-radius: 4px;
+    margin-bottom: 1.2rem;
+    resize: none;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #5a4026;
+    border: 1px solid #d4c3a3;
+    border-radius: 4px;
+}
+
+.textarea::placeholder,
+.input::placeholder {
+    font-family: Arial, sans-serif; 
+    color: #5a4026; 
+    font-size: 1rem; 
+}
+
+.submitButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #6b4f2c;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+    background-color: #5a4026;
+}
+
+.submitButton:active {
+    transform: scale(0.95);
+}

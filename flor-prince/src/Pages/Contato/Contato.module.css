@@ -1,7 +1,82 @@
-.contato-container {
-    background-color: #ccba9a; 
-    padding: 30px;
-    max-width: 400px;
-    margin: 0 auto;
-    border-radius: 8px;
+.contatoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    justify-content: center;
+    padding: 5rem;
 }
+  
+.formSection {
+    flex: 1 1 400px;
+    max-width: 500px;
+    color: #ccba9a;
+}
+  
+.formSection h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contactForm label {
+    font-size: 1rem;
+    color: #ccba9a;
+    margin-top: 1rem;
+}
+  
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #5a4026;
+    border: 1px solid #d4c3a3;
+}
+  
+.contactForm textarea {
+    resize: none;
+    color: #5a4026;
+    height: 150px;
+}
+
+.textarea::placeholder,
+.input::placeholder {
+    font-family: Arial, sans-serif; 
+    color: #5a4026; 
+    font-size: 1rem; 
+}
+  
+.submitButton {
+    background-color: #5a4026;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.submitButton:hover {
+    background-color: #8c5a3f;
+}
+  
+.infoSection {
+    flex: 1 1 400px;
+    max-width: 300px;
+}
+  
+.infoSection p {
+    font-size: 1.3rem;
+    color: #5a4026;
+    margin: 0.5rem 0;
+}
+  
+.infoSection h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ccba9a;
+}
+  
