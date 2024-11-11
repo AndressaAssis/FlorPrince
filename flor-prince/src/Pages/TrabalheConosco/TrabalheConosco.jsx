@@ -58,6 +58,7 @@ export function TrabalheConosco() {
                 name="nome"
                 value={formData.nome}
                 onChange={handleChange}
+                placeholder="Dígite o seu nome"
                 required
             />
 
@@ -67,6 +68,7 @@ export function TrabalheConosco() {
                 name="telefone"
                 value={formData.telefone}
                 onChange={handleChange}
+                placeholder="Dígite o seu telefone de contato"
                 required
             />
 
@@ -76,6 +78,7 @@ export function TrabalheConosco() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder="Dígite o seu email"
                 required
             />
 

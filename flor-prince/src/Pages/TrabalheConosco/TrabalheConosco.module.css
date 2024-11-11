@@ -50,6 +50,11 @@
     font-size: 14px;
 }
 
+.input::placeholder { 
+    color: #5a4026; 
+    font-size: 1rem; 
+}
+
 .formulario button {
     background-color: #6b4f2c ;
     color: azure;

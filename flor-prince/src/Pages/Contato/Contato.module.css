@@ -33,6 +33,7 @@
     font-size: 1rem;
     color: #5a4026;
     border: 1px solid #d4c3a3;
+    font-family: Arial, sans-serif;
 }
   
 .contactForm textarea {
@@ -76,7 +77,11 @@
   
 .infoSection h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #ccba9a;
+}
+
+.infoSection p + p strong {
+    margin-top: 4rem;
 }
   
