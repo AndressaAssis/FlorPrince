@@ -1,14 +1,14 @@
 .trabalheConoscoContainer {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     font-family: Arial, sans-serif;
 }
 
 .trabalheConoscoContainer h2, h3 {
     color: #ccba9a;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .vagasList {

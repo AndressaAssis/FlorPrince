@@ -34,78 +34,80 @@ export function TrabalheConosco() {
     };
 
     return (
-
-        <div className={styles.trabalheConoscoContainer}>
+      <div className={styles.trabalheConoscoContainer}>
         <h2>Trabalhe Conosco</h2>
-        
+
         {/* Lista de Vagas */}
         <div className={styles.vagasList}>
-            <h3>Vagas Disponíveis</h3>
-            <ul>
-                {vagas.map((vaga, index) => (
-                    <li key={index}>{vaga}</li>
-                ))}
-            </ul>
+          <h3>Vagas Disponíveis</h3>
+          <ul>
+            {vagas.map((vaga, index) => (
+              <li key={index}>{vaga}</li>
+            ))}
+          </ul>
         </div>
 
         {/* Formulário de Candidatura */}
         <form onSubmit={handleSubmit} className={styles.formulario}>
-            <h3>Envie seu Currículo</h3>
-            
-            <label>Nome:</label>
-            <input
-                type="text"
-                name="nome"
-                value={formData.nome}
-                onChange={handleChange}
-                placeholder="Dígite o seu nome"
-                required
-            />
+          <h3>Envie seu Currículo</h3>
 
-            <label>Telefone:</label>
-            <input
-                type="tel"
-                name="telefone"
-                value={formData.telefone}
-                onChange={handleChange}
-                placeholder="Dígite o seu telefone de contato"
-                required
-            />
+          <label>Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            value={formData.nome}
+            onChange={handleChange}
+            placeholder="Dígite o seu nome"
+            className={styles.input}
+            required
+          />
 
-            <label>Email:</label>
-            <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Dígite o seu email"
-                required
-            />
+          <label>Telefone:</label>
+          <input
+            type="tel"
+            name="telefone"
+            value={formData.telefone}
+            onChange={handleChange}
+            placeholder="Dígite o seu telefone de contato"
+            className={styles.input}
+            required
+          />
 
-            <label>Vaga Desejada:</label>
-            <select
-                name="vagaDesejada"
-                value={formData.vagaDesejada}
-                onChange={handleChange}
-                required
-            >
-                <option value="">Selecione a vaga</option>
-                {vagas.map((vaga, index) => (
-                    <option key={index} value={vaga}>
-                        {vaga}
-                    </option>
-                ))}
-            </select>
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Dígite o seu email"
+            className={styles.input}
+            required
+          />
 
-            <label>Anexe seu Currículo:</label>
-            <input
-                type="file"
-                name="curriculo"
-                onChange={handleChange}
-                required
-            />
+          <label>Vaga Desejada:</label>
+          <select
+            name="vagaDesejada"
+            value={formData.vagaDesejada}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Selecione a vaga</option>
+            {vagas.map((vaga, index) => (
+              <option key={index} value={vaga}>
+                {vaga}
+              </option>
+            ))}
+          </select>
 
-            <button type="submit">Enviar Candidatura</button>
+          <label>Anexe seu Currículo:</label>
+          <input
+            type="file"
+            name="curriculo"
+            onChange={handleChange}
+            required
+          />
+
+          <button type="submit">Enviar Candidatura</button>
         </form>
       </div>
     );
