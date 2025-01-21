@@ -21,7 +21,7 @@ export function Navbar(){
         <>
             <header className={styles.header}>
                 <div className={styles.imagemContainer}>
-                    <img className={styles.imagemLogo} src={ps1_logo} alt="imagem-logo" />
+                    <img className={styles.imagemLogo} src={ps1_logo} alt="imagem-logo" onClick={handleNavigation} />
                 </div>
                 <div className={styles.navList}>
                     <ul>

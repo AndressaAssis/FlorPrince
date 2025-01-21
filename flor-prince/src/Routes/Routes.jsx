@@ -15,6 +15,7 @@ export function Rotas() {
 
     return(
         <Routes>
+            <Route path="/" element={<InicialPage/>} />
             <Route path="/contato" element={<ContatoPage/>} />
             <Route path="/home" element={<InicialPage />} />
             <Route path="/fundacao" element={<Fundacao />} />

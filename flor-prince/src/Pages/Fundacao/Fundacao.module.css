@@ -1,0 +1,128 @@
+.fundacaoHistoria {
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.secaoHistoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 40px;
+}
+
+.secaoHistoria h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px;
+    color: #6b4f2c;
+}
+
+.secaoHistoria p {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 30px;
+    color: #3d2c1b;
+}
+
+.secaoInfraestrutura {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 40px; 
+}
+
+.secaoInfraestrutura h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px;
+    color: #6b4f2c;
+}
+
+.secaoInfraestrutura p {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 30px;
+    color: #3d2c1b;
+}
+
+.secaoRealizacoes {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 40px; 
+}
+
+.secaoRealizacoes h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px;
+    color: #6b4f2c;
+}
+
+.listaRealizacoes li {
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 30px;
+    color: #3d2c1b;
+    list-style: none;
+    padding: 0;
+}
+
+.galeriaFotos {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+}
+
+.foto {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; 
+}
+
+.foto:hover {
+    transform: scale(1.1); 
+}
+
+.secaoFotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.secaoFotos h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6b4f2c;
+}
+
+.carrosselFotos {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fotoCarrossel {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
